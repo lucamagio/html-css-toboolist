@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+main{
+    background-color: white;
+    width: 980px;
+    margin: 1px auto 0 auto;
+    border-radius: 10px;
+    padding: 15px 50px 50px 50px;
+}
+
+section{
+    background-color: white;
+    width: 980px;
+    margin: 10px auto 0 auto;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+}
+
+div{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}

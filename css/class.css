@@ -1,38 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header{
-    background-color: rgb(255, 255, 255);
-    height: 40px;
-}
-
-img{
-    height: 40px;
-    max-height: 100%;
-    padding: 7px 0 0 25px;
-}
-
-body{
-    background-color: whitesmoke;
-}
-
-main{
-    background-color: white;
-    width: 980px;
-    margin: 1px auto 0 auto;
-    border-radius: 10px;
-    padding: 15px 50px 50px 50px;
-}
-
-.todo-item-text{
-    display: inline;
-    margin-left: 8px;
-    margin-right: 3px;
-}
-
+/*Icon*/
 .todo-item-check{
     display: inline-block;
     border: 1px solid green;
@@ -56,6 +22,7 @@ main{
     line-height: 24px;
 }
 
+/*Tag*/
 .todo-item-editorial{
     background-color: rgb(14, 164, 252);
     color: white;
@@ -103,48 +70,14 @@ main{
     font-size: 12px;
 }
 
-section{
-    background-color: white;
-    width: 980px;
-    margin: 10px auto 0 auto;
-    border-radius: 10px;
-    padding: 10px 50px 10px 50px;
-}
-
-#add-task{
-    background-color: rgb(14, 164, 252);
-    font-weight: 800;
-    border: 1px solid;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 12px;
-}
-
-#add-section{
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 12px;
-}
-
-#tendina{
-    display: inline-block;
-    font-size: 10px;
-    padding: 5px 5px 5px 5px;
-    
-}
-
-.todo-list-subtitle{
+/*Text-Task*/
+.todo-item-text{
     display: inline;
+    margin-left: 8px;
+    margin-right: 3px;
 }
 
-#last-div{
-    padding-top: 15px;
-    padding-bottom: 40px;
-}
-
-div{
-    padding-top: 15px;
-    padding-bottom: 10px;
+/*Task-Title*/
+.todo-list-task-title{
+    display: inline;
 }
